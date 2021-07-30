@@ -1,0 +1,38 @@
+.input-style{
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    background-color: #F8F7F5;
+    padding: 10px;
+}
+.btn-style{
+    background-color: #F06C4E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 0 20px;
+}
+#meals{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+#meal{
+    background-color: #F8F7F5;
+    border-radius: 10px;
+    text-align: center;
+}
+#meal img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.error-msg{
+    text-align: center;
+    color: red;
+    background-color: lightgrey;
+    border-radius: 5px;
+    padding: 20px;
+}
+h5{   
+    padding: 20px 10px;
+}
